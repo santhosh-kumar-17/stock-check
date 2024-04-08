@@ -1,9 +1,3 @@
-"""
-stock backtester to test the model given a dataset. 
-author - Kaneel Senevirathne
-date - 1/13/2022
-"""
-
 import numpy as np
 from stock_utils.simulator import simulator
 from stock_utils.stock_utils import get_stock_price
@@ -16,6 +10,8 @@ from models.lr_inference import LR_v1_predict, LR_v1_sell
 import warnings
 from collections import OrderedDict
 warnings.filterwarnings("ignore")
+
+
 import os
 import pickle
 from tqdm import tqdm
